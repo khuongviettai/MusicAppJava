@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Fragments.HomeFragment">
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/bannerSwiper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="9dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/homeTextHits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bannerSwiper"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="20dp"
+        android:text="Today's hits"
+        android:textColor="@color/white"
+        android:textSize="34dp"
+        android:textStyle="bold"
+
+        />
+
+
+
+</RelativeLayout>
